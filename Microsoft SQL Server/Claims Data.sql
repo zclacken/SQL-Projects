@@ -35,7 +35,7 @@ then Modifier2 else 'NULL' end as 'Pricing Modifier2'
       ,SUM([PAID+PR]) as "Total Allowed" 
   FROM [dbo].[vw_ClaimItemARAnalysis] as ci 
   WHERE IsMostRecentVersion = 1 
-  AND SFACCOUNTID = ‘IP-00489746’ 
+  AND SFACCOUNTID = â€˜IP-00489746â€™ 
  
 
   GROUP BY  
