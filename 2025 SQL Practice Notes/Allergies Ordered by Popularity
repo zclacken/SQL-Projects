@@ -1,0 +1,7 @@
+#Show all allergies ordered by popularity. Remove NULL values from query.#  
+
+Select allergies, count(*) as 'Total_Diagnosis'
+FROM patients
+WHERE allergies is not NULL 
+group by allergies
+ORDER by total_diagnosis desc
