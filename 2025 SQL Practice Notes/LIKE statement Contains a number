@@ -1,0 +1,6 @@
+attending_doctor_id contains a 2
+
+
+attending_doctor_id LIKE '%2%'
+
+
