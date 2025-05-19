@@ -1,3 +1,10 @@
-When using an aggregate function such as MIN, MAX, SUM, you cannot use WHERE, you need to use HAVING  
+#When using an aggregate function such as MIN, MAX, SUM, you cannot use WHERE, you need to use HAVING  
+
+#Power(base, exponent) ------> For example, to get three squared: POWER(3,2) equals 9   
+
+
+
+
+
 
 
